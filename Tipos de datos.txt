@@ -1,0 +1,53 @@
+Tipos de datos
+Un dato es información, pudiendo ser una imagen, un video, un archivo de texto, etc.
+Dependiendo el tipo de lenguaje varía los tipos de datos, pero existen unos que son generales.
+Estos datos son:
+- int (entero) son todo dato numérico que no tenga una parte fraccional o decimal. 
+El alcance mínimo es de -2^31 y el máximo es de 2^31. Su tamaño es de 4 bytes, que son 32 bits.
+- float (flotante) la relación entre números enteros y fracciones, siendo en vez de decimales, fracciones.
+El alcance mínimo es de 1.4E-45 y el máximo es de 3.4028235E38. Su tamaño es de 4 bytes, que son 32 bits.
+- double (doble) la precisión en números decimales es el doble. Su precisión es de 7 decimales.
+El alcance mínimo es de 4.9E-324 y el máximo es de 1.7976931348623157E308. Su tamaño es de 8 bytes, que son 64 bits. Su precisión es de 16 decimales.
+- char (carácter) son letras, símbolos o caracteres. Su alcance mínimo es de '\u0000' (equivalente a 0, representa el carácter NULL) y el máximo es de '\uffff' (equivalente a 65,535, representa el carácter más alto en Unicode). Su tamaño es de 2 bytes que son 16 bits.
+- bool (booleanos) los datos más básicos, que solo pueden ser un si o un no. El alcance mínimo es de 0 y el máximo es de 1. 
+Su tamaño es de 1 byte.
+
+El orden de tamaño del más pequeño al más grande es: bool, char, int, float, double.
+
+Tipos de operadores
+Los operadores son instrucciones que se le dan a la computadora, estas se dividen en varios tipos:
+1. Aritméticos (+,-,*,/,%) Nos ayuda con operaciones matemáticas.
+2. Asignación (=) Da valores a los datos.
+3. Lógicos (&&,||) Son AND y OR, ayudan a relacionar datos.
+4. Relacionales (==, !=, <, >, <=, >=) Se usan para comparar valores.
+5. Referenciales (*, &) * Es de indirección, que obtiene el valor almacenado en la dirección de memoria; y el & es de dirección, que devuelve la dirección de memoria de una variable
+6. Ternarios (?)
+7. Movimiento de bits(<<,>>) 
+
+Ejemplos:
+(a=10, b=5)
+1. a+b(10+5 = 15), a-b(10-5 = 5), a*b(10*5 = 50), a/b(10/5 = 2), a%b(10%5 = 0)
+2. a=5
+3. Si ambas condiciones son verdaderas con && se cumple la condición, pero si alguna no es, no se puede. Si solo una condicion es verdadera con || se cumple la condición
+4. a==b es falso, a!=b es verdadero, a>b es verdadero, a<b es falso, a>=b es verdadero, a<= es falso.
+5. &num obtiene la dirección de memoria de num (operador de dirección). *ptr obtiene el valor almacenado en la dirección de memoria (operador de indirección).
+6. variable = (condición) ? valor_si_true : valor_si_false; 
+Si edad >= 18 es true, resultado será "Mayor de edad". Si edad >= 18 es false, resultado será "Menor de edad".
+7. 8, su representación binaria es: "0000 1000", 8 << 2, siendo su representación binaria "0010 0000", que es 32; 8 >> 2, siendo su representación binaria "0000 0010", que es 2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
