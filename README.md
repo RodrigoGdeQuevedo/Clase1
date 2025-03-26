@@ -1,1 +1,1 @@
-"Este repositorio es una prueba de clase juasjuas" 
+"Este repositorio es una prueba de clase" 
