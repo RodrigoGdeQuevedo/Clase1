@@ -51,9 +51,10 @@ Mamaguevo
 ~~Mamaguevo~~
 ---
 Cosas por hacer
+
 [x]Tarea
-[]Chambear
-[]Dormir
+[ ]Chambear
+[ ]Dormir
 ---
 Cafe: :coffee:
 ---
