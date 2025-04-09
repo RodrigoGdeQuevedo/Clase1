@@ -52,9 +52,9 @@ Mamaguevo
 ---
 Cosas por hacer
 
-[x]Tarea
-[ ]Chambear
-[ ]Dormir
+- [x]Tarea
+- [ ]Chambear
+- [ ]Dormir
 ---
 Cafe: :coffee:
 ---
